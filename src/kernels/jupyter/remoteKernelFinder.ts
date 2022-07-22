@@ -4,7 +4,7 @@
 
 import { injectable, inject } from 'inversify';
 import { CancellationToken, Uri } from 'vscode';
-import { getKernelId, getLanguageInKernelSpec, isPythonKernelConnection } from '../helpers';
+import { getKernelId, getLanguageInKernelSpec } from '../helpers';
 import {
     IJupyterKernelSpec,
     INotebookProviderConnection,
