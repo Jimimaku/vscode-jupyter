@@ -10,12 +10,9 @@ export class DebugStartupCodeProvider implements IStartupCodeProvider {
     public priority = StartupCodePriority.Base;
 
     async getCode(kernel: IKernel): Promise<string[]> {
-        if (
-            !isPythonKernelConnection(kernel.kernelConnectionMetadata)
-        ) {
+        if (!isPythonKernelConnection(kernel.kernelConnectionMetadata)) {
             return [];
         }
-)
         return [
             'import os as __VSCODE_os',
             // Required to get pydevd to work properly in Python kernel, more info here https://github.com/microsoft/vscode-jupyter/issues/11033
