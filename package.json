@@ -2231,7 +2231,7 @@
         "node-stream-zip": "^1.6.0",
         "pdfkit": "^0.13.0",
         "portfinder": "^1.0.25",
-        "re-resizable": "~6.5.5",
+        "re-resizable": "~6.9.9",
         "react": "^16.5.2",
         "react-data-grid": "^6.0.2-0",
         "react-dom": "^16.5.2",
