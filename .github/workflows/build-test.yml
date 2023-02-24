@@ -353,7 +353,7 @@ jobs:
           python-version: ${{matrix.pythonVersion}}
 
       - name: Cache conda on linux
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         if: matrix.python == 'conda'
         with:
           path: ~/conda_pkgs_dir
