@@ -26,3 +26,4 @@ jinja2==3.1.2 # https://github.com/microsoft/vscode-jupyter/issues/9468#issuecom
 matplotlib
 ipympl
 setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
